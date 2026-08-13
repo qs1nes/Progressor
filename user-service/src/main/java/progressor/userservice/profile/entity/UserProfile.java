@@ -34,7 +34,4 @@ public class UserProfile {
     @JoinColumn(name = "user_id")
     private UserAuth user;
 
-    @OneToMany(mappedBy = "userProfile",
-               cascade = CascadeType.ALL)
-    private List<LearningPath> learningPaths;
 }

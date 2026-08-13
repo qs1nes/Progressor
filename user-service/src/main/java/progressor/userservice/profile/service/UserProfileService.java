@@ -7,6 +7,7 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import progressor.userservice.profile.dto.request.ProfileRequest;
+
 import progressor.userservice.profile.dto.response.ProfileResponse;
 import progressor.userservice.profile.entity.UserProfile;
 import progressor.userservice.auth.entity.UserAuth;
